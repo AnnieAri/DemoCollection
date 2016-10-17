@@ -19,6 +19,11 @@
     self.title = @"Demo";
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+        self.navigationController.navigationBar.translucent = false;
+        self.navigationController.navigationBar.clipsToBounds = false;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -194,9 +194,6 @@
         }
     }];
     
-    
-   
-    
     //在播放音乐/录音等的时候, 如果在真机运行, 设置一个分类
     //建议写上.  不设置,真机测试会不好用
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryRecord error:nil];

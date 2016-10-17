@@ -1,4 +1,5 @@
 PODS:
+  - FDFullscreenPopGesture (1.1)
   - Masonry (1.0.1)
   - ReactiveCocoa (2.1.8):
     - ReactiveCocoa/Core (= 2.1.8)
@@ -8,13 +9,15 @@ PODS:
   - ReactiveCocoa/no-arc (2.1.8)
 
 DEPENDENCIES:
+  - FDFullscreenPopGesture (= 1.1)
   - Masonry
   - ReactiveCocoa (~> 2.1.8)
 
 SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
 
-PODFILE CHECKSUM: 6f337587b0715961d1bc14f28f769cec57080d31
+PODFILE CHECKSUM: 091fb2fbc04198c11fb4aade18a86ebeb7b3cb67
 
 COCOAPODS: 1.0.1

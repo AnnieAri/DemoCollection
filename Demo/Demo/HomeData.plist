@@ -26,5 +26,11 @@
 		<key>className</key>
 		<string>BannerViewController</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>个人资料展示</string>
+		<key>className</key>
+		<string>PersonalInfoViewController</string>
+	</dict>
 </array>
 </plist>

@@ -8,4 +8,5 @@ target 'Demo' do
   # Pods for Demo
 pod 'ReactiveCocoa’,'~> 2.1.8'
 pod 'Masonry'
+pod 'FDFullscreenPopGesture', '1.1'
 end
