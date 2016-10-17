@@ -75,6 +75,13 @@
 		C8C8ABD41DB475E800DE6C32 /* CoverFlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABD01DB475E800DE6C32 /* CoverFlowViewCell.m */; };
 		C8C8ABD51DB475E800DE6C32 /* CoverFlowViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C8ABD11DB475E800DE6C32 /* CoverFlowViewCell.xib */; };
 		C8C8ABD81DB4766100DE6C32 /* CommentCoverflowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABD71DB4766100DE6C32 /* CommentCoverflowViewController.m */; };
+		C8C8ABE31DB4787500DE6C32 /* ARBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABDC1DB4787500DE6C32 /* ARBannerView.m */; };
+		C8C8ABE41DB4787500DE6C32 /* bannerPic01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8ABDE1DB4787500DE6C32 /* bannerPic01.jpg */; };
+		C8C8ABE51DB4787500DE6C32 /* bannerPic02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8ABDF1DB4787500DE6C32 /* bannerPic02.jpg */; };
+		C8C8ABE61DB4787500DE6C32 /* bannerPic03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8ABE01DB4787500DE6C32 /* bannerPic03.jpg */; };
+		C8C8ABE71DB4787500DE6C32 /* bannerPic04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8ABE11DB4787500DE6C32 /* bannerPic04.jpg */; };
+		C8C8ABE81DB4787500DE6C32 /* bannerPic05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C8ABE21DB4787500DE6C32 /* bannerPic05.jpg */; };
+		C8C8ABEB1DB4789500DE6C32 /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABEA1DB4789500DE6C32 /* BannerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +169,15 @@
 		C8C8ABD11DB475E800DE6C32 /* CoverFlowViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverFlowViewCell.xib; sourceTree = "<group>"; };
 		C8C8ABD61DB4766100DE6C32 /* CommentCoverflowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCoverflowViewController.h; sourceTree = "<group>"; };
 		C8C8ABD71DB4766100DE6C32 /* CommentCoverflowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCoverflowViewController.m; sourceTree = "<group>"; };
+		C8C8ABDB1DB4787500DE6C32 /* ARBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARBannerView.h; sourceTree = "<group>"; };
+		C8C8ABDC1DB4787500DE6C32 /* ARBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARBannerView.m; sourceTree = "<group>"; };
+		C8C8ABDE1DB4787500DE6C32 /* bannerPic01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bannerPic01.jpg; sourceTree = "<group>"; };
+		C8C8ABDF1DB4787500DE6C32 /* bannerPic02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bannerPic02.jpg; sourceTree = "<group>"; };
+		C8C8ABE01DB4787500DE6C32 /* bannerPic03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bannerPic03.jpg; sourceTree = "<group>"; };
+		C8C8ABE11DB4787500DE6C32 /* bannerPic04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bannerPic04.jpg; sourceTree = "<group>"; };
+		C8C8ABE21DB4787500DE6C32 /* bannerPic05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bannerPic05.jpg; sourceTree = "<group>"; };
+		C8C8ABE91DB4789500DE6C32 /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		C8C8ABEA1DB4789500DE6C32 /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		F00103EBEFFEB57B8765FB82 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEFE8DD3E4907A44A32FCBE /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +232,7 @@
 		C8C8AB361DB3BDDC00DE6C32 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C8C8ABD91DB4787500DE6C32 /* 无限轮播器 */,
 				C8C8ABCA1DB475E800DE6C32 /* Coverflow评论界面 */,
 				C8C8AB5F1DB4687000DE6C32 /* 下拉刷新 */,
 				C8C8AB501DB3C00000DE6C32 /* 语音识别 */,
@@ -350,6 +367,38 @@
 			path = "Coverflow评论界面";
 			sourceTree = "<group>";
 		};
+		C8C8ABD91DB4787500DE6C32 /* 无限轮播器 */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8ABDA1DB4787500DE6C32 /* BannerView */,
+				C8C8ABDD1DB4787500DE6C32 /* Images */,
+				C8C8ABE91DB4789500DE6C32 /* BannerViewController.h */,
+				C8C8ABEA1DB4789500DE6C32 /* BannerViewController.m */,
+			);
+			path = "无限轮播器";
+			sourceTree = "<group>";
+		};
+		C8C8ABDA1DB4787500DE6C32 /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8ABDB1DB4787500DE6C32 /* ARBannerView.h */,
+				C8C8ABDC1DB4787500DE6C32 /* ARBannerView.m */,
+			);
+			path = BannerView;
+			sourceTree = "<group>";
+		};
+		C8C8ABDD1DB4787500DE6C32 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8ABDE1DB4787500DE6C32 /* bannerPic01.jpg */,
+				C8C8ABDF1DB4787500DE6C32 /* bannerPic02.jpg */,
+				C8C8ABE01DB4787500DE6C32 /* bannerPic03.jpg */,
+				C8C8ABE11DB4787500DE6C32 /* bannerPic04.jpg */,
+				C8C8ABE21DB4787500DE6C32 /* bannerPic05.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -420,6 +469,7 @@
 				C8C8ABB41DB4687100DE6C32 /* loading22@3x.png in Resources */,
 				C8C8ABB81DB4687100DE6C32 /* loading3@3x.png in Resources */,
 				C8C8ABA81DB4687100DE6C32 /* loading17@3x.png in Resources */,
+				C8C8ABE61DB4787500DE6C32 /* bannerPic03.jpg in Resources */,
 				C8C8ABAB1DB4687100DE6C32 /* loading19@2x.png in Resources */,
 				C8C8AB971DB4687100DE6C32 /* loading0@2x.png in Resources */,
 				C8C8ABAA1DB4687100DE6C32 /* loading18@3x.png in Resources */,
@@ -428,6 +478,7 @@
 				C8C8ABB51DB4687100DE6C32 /* loading2@2x.png in Resources */,
 				C8C8ABBB1DB4687100DE6C32 /* loading5@2x.png in Resources */,
 				C8C8ABA51DB4687100DE6C32 /* loading16@2x.png in Resources */,
+				C8C8ABE51DB4787500DE6C32 /* bannerPic02.jpg in Resources */,
 				C8C8AB9F1DB4687100DE6C32 /* loading13@2x.png in Resources */,
 				C8C8AB551DB3C03700DE6C32 /* SpeechRecognitionController.xib in Resources */,
 				C8C8AB9D1DB4687100DE6C32 /* loading12@2x.png in Resources */,
@@ -438,9 +489,11 @@
 				C8C8AB471DB3BDDC00DE6C32 /* LaunchScreen.storyboard in Resources */,
 				C8C8ABAF1DB4687100DE6C32 /* loading20@2x.png in Resources */,
 				C8C8ABAC1DB4687100DE6C32 /* loading19@3x.png in Resources */,
+				C8C8ABE71DB4787500DE6C32 /* bannerPic04.jpg in Resources */,
 				C8C8ABBE1DB4687100DE6C32 /* loading6@3x.png in Resources */,
 				C8C8ABBA1DB4687100DE6C32 /* loading4@3x.png in Resources */,
 				C8C8AB9E1DB4687100DE6C32 /* loading12@3x.png in Resources */,
+				C8C8ABE41DB4787500DE6C32 /* bannerPic01.jpg in Resources */,
 				C8C8ABB31DB4687100DE6C32 /* loading22@2x.png in Resources */,
 				C8C8ABB61DB4687100DE6C32 /* loading2@3x.png in Resources */,
 				C8C8AB981DB4687100DE6C32 /* loading0@3x.png in Resources */,
@@ -448,6 +501,7 @@
 				C8C8ABB01DB4687100DE6C32 /* loading20@3x.png in Resources */,
 				C8C8ABC41DB4687100DE6C32 /* loading9@3x.png in Resources */,
 				C8C8AB9C1DB4687100DE6C32 /* loading11@3x.png in Resources */,
+				C8C8ABE81DB4787500DE6C32 /* bannerPic05.jpg in Resources */,
 				C8C8ABB21DB4687100DE6C32 /* loading21@3x.png in Resources */,
 				C8C8ABC31DB4687100DE6C32 /* loading9@2x.png in Resources */,
 				C8C8ABB91DB4687100DE6C32 /* loading4@2x.png in Resources */,
@@ -526,6 +580,7 @@
 				C8C8ABD31DB475E800DE6C32 /* CoverFlowView.m in Sources */,
 				C8C8AB961DB4687100DE6C32 /* ARRefreshControl.m in Sources */,
 				C8C8ABC61DB4687100DE6C32 /* UIImage+loadImage.m in Sources */,
+				C8C8ABEB1DB4789500DE6C32 /* BannerViewController.m in Sources */,
 				C8C8AB3F1DB3BDDC00DE6C32 /* ViewController.m in Sources */,
 				C8C8AB541DB3C03700DE6C32 /* SpeechRecognitionController.m in Sources */,
 				C8C8AB3C1DB3BDDC00DE6C32 /* AppDelegate.m in Sources */,
@@ -535,6 +590,7 @@
 				C8C8AB5B1DB3D6CB00DE6C32 /* VoiceRecordView.m in Sources */,
 				C8C8AB391DB3BDDC00DE6C32 /* main.m in Sources */,
 				C8C8AB5E1DB45EEE00DE6C32 /* AudioTool.m in Sources */,
+				C8C8ABE31DB4787500DE6C32 /* ARBannerView.m in Sources */,
 				C8C8ABC91DB4689D00DE6C32 /* RefreshViewController.m in Sources */,
 				C8C8ABD81DB4766100DE6C32 /* CommentCoverflowViewController.m in Sources */,
 			);

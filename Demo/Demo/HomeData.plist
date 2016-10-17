@@ -20,5 +20,11 @@
 		<key>className</key>
 		<string>CommentCoverflowViewController</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>无限轮播器</string>
+		<key>className</key>
+		<string>BannerViewController</string>
+	</dict>
 </array>
 </plist>
