@@ -51,11 +51,4 @@
     cell.textLabel.text = self.cellShowString;
     return cell;
 }
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-    NSLog(@"xxxx");
-}
-- (void)dealloc {
-    NSLog(@"释放了");
-}
 @end
