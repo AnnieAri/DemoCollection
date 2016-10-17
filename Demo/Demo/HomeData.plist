@@ -14,5 +14,11 @@
 		<key>className</key>
 		<string>RefreshViewController</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>评论CoverFlow</string>
+		<key>className</key>
+		<string>CommentCoverflowViewController</string>
+	</dict>
 </array>
 </plist>

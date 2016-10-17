@@ -70,6 +70,11 @@
 		C8C8ABC51DB4687100DE6C32 /* NSObject+Formula.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8AB931DB4687100DE6C32 /* NSObject+Formula.m */; };
 		C8C8ABC61DB4687100DE6C32 /* UIImage+loadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8AB951DB4687100DE6C32 /* UIImage+loadImage.m */; };
 		C8C8ABC91DB4689D00DE6C32 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABC81DB4689D00DE6C32 /* RefreshViewController.m */; };
+		C8C8ABD21DB475E800DE6C32 /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABCC1DB475E800DE6C32 /* CoverFlowLayout.m */; };
+		C8C8ABD31DB475E800DE6C32 /* CoverFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABCE1DB475E800DE6C32 /* CoverFlowView.m */; };
+		C8C8ABD41DB475E800DE6C32 /* CoverFlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABD01DB475E800DE6C32 /* CoverFlowViewCell.m */; };
+		C8C8ABD51DB475E800DE6C32 /* CoverFlowViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C8ABD11DB475E800DE6C32 /* CoverFlowViewCell.xib */; };
+		C8C8ABD81DB4766100DE6C32 /* CommentCoverflowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABD71DB4766100DE6C32 /* CommentCoverflowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +153,15 @@
 		C8C8AB951DB4687100DE6C32 /* UIImage+loadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+loadImage.m"; sourceTree = "<group>"; };
 		C8C8ABC71DB4689D00DE6C32 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
 		C8C8ABC81DB4689D00DE6C32 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
+		C8C8ABCB1DB475E800DE6C32 /* CoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayout.h; sourceTree = "<group>"; };
+		C8C8ABCC1DB475E800DE6C32 /* CoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayout.m; sourceTree = "<group>"; };
+		C8C8ABCD1DB475E800DE6C32 /* CoverFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowView.h; sourceTree = "<group>"; };
+		C8C8ABCE1DB475E800DE6C32 /* CoverFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowView.m; sourceTree = "<group>"; };
+		C8C8ABCF1DB475E800DE6C32 /* CoverFlowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowViewCell.h; sourceTree = "<group>"; };
+		C8C8ABD01DB475E800DE6C32 /* CoverFlowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowViewCell.m; sourceTree = "<group>"; };
+		C8C8ABD11DB475E800DE6C32 /* CoverFlowViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverFlowViewCell.xib; sourceTree = "<group>"; };
+		C8C8ABD61DB4766100DE6C32 /* CommentCoverflowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCoverflowViewController.h; sourceTree = "<group>"; };
+		C8C8ABD71DB4766100DE6C32 /* CommentCoverflowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCoverflowViewController.m; sourceTree = "<group>"; };
 		F00103EBEFFEB57B8765FB82 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEFE8DD3E4907A44A32FCBE /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +216,7 @@
 		C8C8AB361DB3BDDC00DE6C32 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C8C8ABCA1DB475E800DE6C32 /* Coverflow评论界面 */,
 				C8C8AB5F1DB4687000DE6C32 /* 下拉刷新 */,
 				C8C8AB501DB3C00000DE6C32 /* 语音识别 */,
 				C8C8AB3A1DB3BDDC00DE6C32 /* AppDelegate.h */,
@@ -319,6 +334,22 @@
 			path = loadimage;
 			sourceTree = "<group>";
 		};
+		C8C8ABCA1DB475E800DE6C32 /* Coverflow评论界面 */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8ABCB1DB475E800DE6C32 /* CoverFlowLayout.h */,
+				C8C8ABCC1DB475E800DE6C32 /* CoverFlowLayout.m */,
+				C8C8ABCD1DB475E800DE6C32 /* CoverFlowView.h */,
+				C8C8ABCE1DB475E800DE6C32 /* CoverFlowView.m */,
+				C8C8ABCF1DB475E800DE6C32 /* CoverFlowViewCell.h */,
+				C8C8ABD01DB475E800DE6C32 /* CoverFlowViewCell.m */,
+				C8C8ABD11DB475E800DE6C32 /* CoverFlowViewCell.xib */,
+				C8C8ABD61DB4766100DE6C32 /* CommentCoverflowViewController.h */,
+				C8C8ABD71DB4766100DE6C32 /* CommentCoverflowViewController.m */,
+			);
+			path = "Coverflow评论界面";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -385,6 +416,7 @@
 				C8C8ABA11DB4687100DE6C32 /* loading14@2x.png in Resources */,
 				C8C8ABC11DB4687100DE6C32 /* loading8@2x.png in Resources */,
 				C8C8ABA71DB4687100DE6C32 /* loading17@2x.png in Resources */,
+				C8C8ABD51DB475E800DE6C32 /* CoverFlowViewCell.xib in Resources */,
 				C8C8ABB41DB4687100DE6C32 /* loading22@3x.png in Resources */,
 				C8C8ABB81DB4687100DE6C32 /* loading3@3x.png in Resources */,
 				C8C8ABA81DB4687100DE6C32 /* loading17@3x.png in Resources */,
@@ -490,17 +522,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C8ABD41DB475E800DE6C32 /* CoverFlowViewCell.m in Sources */,
+				C8C8ABD31DB475E800DE6C32 /* CoverFlowView.m in Sources */,
 				C8C8AB961DB4687100DE6C32 /* ARRefreshControl.m in Sources */,
 				C8C8ABC61DB4687100DE6C32 /* UIImage+loadImage.m in Sources */,
 				C8C8AB3F1DB3BDDC00DE6C32 /* ViewController.m in Sources */,
 				C8C8AB541DB3C03700DE6C32 /* SpeechRecognitionController.m in Sources */,
 				C8C8AB3C1DB3BDDC00DE6C32 /* AppDelegate.m in Sources */,
+				C8C8ABD21DB475E800DE6C32 /* CoverFlowLayout.m in Sources */,
 				C8C8ABC51DB4687100DE6C32 /* NSObject+Formula.m in Sources */,
 				C8C8AB581DB3C0DB00DE6C32 /* UIView+Inspectable.m in Sources */,
 				C8C8AB5B1DB3D6CB00DE6C32 /* VoiceRecordView.m in Sources */,
 				C8C8AB391DB3BDDC00DE6C32 /* main.m in Sources */,
 				C8C8AB5E1DB45EEE00DE6C32 /* AudioTool.m in Sources */,
 				C8C8ABC91DB4689D00DE6C32 /* RefreshViewController.m in Sources */,
+				C8C8ABD81DB4766100DE6C32 /* CommentCoverflowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
