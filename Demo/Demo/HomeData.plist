@@ -8,5 +8,11 @@
 		<key>className</key>
 		<string>SpeechRecognitionController</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>下拉刷新控件</string>
+		<key>className</key>
+		<string>RefreshViewController</string>
+	</dict>
 </array>
 </plist>

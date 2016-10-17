@@ -33,4 +33,7 @@
      objc_setAssociatedObject(self, @"borderColor", borderColor, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     self.layer.borderColor = borderColor.CGColor;
 }
+- (UIColor *)borderColor {
+    return objc_getAssociatedObject(self, @"borderColor");
+}
 @end
