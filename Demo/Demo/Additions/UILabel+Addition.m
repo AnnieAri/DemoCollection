@@ -16,6 +16,8 @@
     label.text = text;
     label.textColor = textColor;
     label.font = [UIFont systemFontOfSize:fontSize];
+    label.numberOfLines = 0;
+    label.lineBreakMode = NSLineBreakByWordWrapping;
     return label;
 }
 

@@ -13,5 +13,6 @@
 - (UIImage *)tintImageWithColor:(UIColor *)tintColor;
 + (UIImage *)imageWithColor:(UIColor *)color;
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
-
+/**加载动画*/
++ (UIImage *)yoho_loadImage;
 @end

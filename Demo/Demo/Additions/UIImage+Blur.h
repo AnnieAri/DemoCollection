@@ -10,6 +10,6 @@
 
 @interface UIImage (Blur)
 
-- (UIImage *)blur;
+- (UIImage*)blur;
 
 @end

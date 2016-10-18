@@ -1,0 +1,37 @@
+//
+//  CustomModal-PCH.pch
+//  CustomModal
+//
+//  Created by Ari on 16/10/18.
+//  Copyright © 2016年 com.Ari. All rights reserved.
+///Users/Anniebot/Desktop/Swift代码->OC对比代码/垃圾/CustomModal/CustomModal/CustomModal-PCH.pch/Users/Anniebot/DemoCollection/Demo/Demo/CustomModal-PCH.pch
+#if __OBJC__
+
+//公用宏定义
+#define yohoBackGroundColour [UIColor colorWithRed:78/255.0 green:118/255.0 blue:72/255.0 alpha:1]
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define yoho_NotificationCenter [NSNotificationCenter defaultCenter]
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//公用头文件
+/**masonry两个的宏*/
+// define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+// define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <YYModel.h>
+#import "Addition.h"
+#import "YOHOConst.h"
+#ifdef DEBUG
+#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+#endif

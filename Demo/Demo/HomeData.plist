@@ -32,5 +32,11 @@
 		<key>className</key>
 		<string>PersonalInfoViewController</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>查看大图</string>
+		<key>className</key>
+		<string>YOHOHomeController</string>
+	</dict>
 </array>
 </plist>

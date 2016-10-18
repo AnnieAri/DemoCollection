@@ -56,4 +56,15 @@
     return image;
 }
 
+/**加载动画*/
++ (UIImage *)yoho_loadImage {
+    NSMutableArray *images = [NSMutableArray array];
+    for (int i = 0; i < 22; i++) {
+        NSString *name = [NSString stringWithFormat:@"loading%d_64x46_",i];
+        UIImage *image = [UIImage imageNamed:name];
+        [images addObject:image];
+    }
+    return [UIImage animatedImageWithImages:images.copy duration:22.0/12];
+}
+
 @end

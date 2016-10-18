@@ -6,3 +6,4 @@
 - 3.[coverFlow评论界面](https://github.com/AnnieAri/CommentsCoverFlowDemo)
 - 4.[无限轮播器](https://github.com/AnnieAri/BannerDemo)
 - 5[个人资料展示](https://github.com/AnnieAri/PersonalInfoDisplayDemo)
+- 6[查看大图效果](https://github.com/AnnieAri/CustomModal)

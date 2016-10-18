@@ -9,4 +9,6 @@ target 'Demo' do
 pod 'ReactiveCocoa’,'~> 2.1.8'
 pod 'Masonry'
 pod 'FDFullscreenPopGesture', '1.1'
+pod 'YYModel'
+pod 'SDWebImage'
 end

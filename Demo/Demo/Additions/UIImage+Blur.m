@@ -11,22 +11,22 @@
 
 @implementation UIImage (BlurGlass)
 
-- (UIImage *)blur
+- (UIImage*)blur
 {
     return [self imgWithLightAlpha:0.1 radius:3 colorSaturationFactor:1];
 }
 
-- (UIImage *)imgWithLightAlpha:(CGFloat)alpha radius:(CGFloat)radius colorSaturationFactor:(CGFloat)colorSaturationFactor
+- (UIImage*)imgWithLightAlpha:(CGFloat)alpha radius:(CGFloat)radius colorSaturationFactor:(CGFloat)colorSaturationFactor
 {
-    UIColor *tintColor = [UIColor colorWithWhite:1.0 alpha:alpha];
+    UIColor* tintColor = [UIColor colorWithWhite:1.0 alpha:alpha];
     return [self imgBluredWithRadius:radius tintColor:tintColor saturationDeltaFactor:colorSaturationFactor maskImage:nil];
 }
 
-- (UIImage *)imgBluredWithRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage *)maskImage
+- (UIImage*)imgBluredWithRadius:(CGFloat)blurRadius tintColor:(UIColor*)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(UIImage*)maskImage
 {
 
     CGRect imageRect = { CGPointZero, self.size };
-    UIImage *effectImage = self;
+    UIImage* effectImage = self;
 
     BOOL hasBlur = blurRadius > __FLT_EPSILON__;
     BOOL hasSaturationChange = fabs(saturationDeltaFactor - 1.) > __FLT_EPSILON__;
@@ -121,7 +121,7 @@
     }
 
     // 输出成品,并关闭上下文
-    UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIImage* outputImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
 
     return outputImage;

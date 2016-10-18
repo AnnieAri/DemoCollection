@@ -13,17 +13,33 @@
 		C81BE0181DB5214F007BE6AB /* YOHOMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0141DB5214F007BE6AB /* YOHOMarkView.m */; };
 		C81BE0191DB5214F007BE6AB /* YOHOMarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81BE0151DB5214F007BE6AB /* YOHOMarkView.xib */; };
 		C81BE01C1DB5220A007BE6AB /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE01B1DB5220A007BE6AB /* PersonalInfoViewController.m */; };
-		C81BE0371DB52578007BE6AB /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0201DB52578007BE6AB /* NSArray+Addition.m */; };
-		C81BE0381DB52578007BE6AB /* NSAttributedString+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0221DB52578007BE6AB /* NSAttributedString+Additon.m */; };
-		C81BE0391DB52578007BE6AB /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0241DB52578007BE6AB /* NSObject+Addition.m */; };
-		C81BE03A1DB52578007BE6AB /* NSObject+Formula.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0261DB52578007BE6AB /* NSObject+Formula.m */; };
-		C81BE03B1DB52578007BE6AB /* NSString+path.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0281DB52578007BE6AB /* NSString+path.m */; };
-		C81BE03D1DB52578007BE6AB /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE02C1DB52578007BE6AB /* UIColor+Addition.m */; };
-		C81BE03E1DB52578007BE6AB /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE02E1DB52578007BE6AB /* UIImage+Additions.m */; };
-		C81BE03F1DB52578007BE6AB /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0301DB52578007BE6AB /* UIImage+Blur.m */; };
-		C81BE0401DB52578007BE6AB /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0321DB52578007BE6AB /* UILabel+Addition.m */; };
-		C81BE0411DB52578007BE6AB /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0341DB52578007BE6AB /* UIView+Addition.m */; };
-		C81BE0421DB52578007BE6AB /* UIView+HMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C81BE0361DB52578007BE6AB /* UIView+HMCategory.m */; };
+		C824146D1DB68C7500DB7813 /* YOHOConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C824146C1DB68C7500DB7813 /* YOHOConst.m */; };
+		C824148D1DB68C8700DB7813 /* YOHOCommentBigPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414721DB68C8700DB7813 /* YOHOCommentBigPicViewController.m */; };
+		C824148E1DB68C8700DB7813 /* YOHOCommentBigPicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C82414731DB68C8700DB7813 /* YOHOCommentBigPicViewController.xib */; };
+		C824148F1DB68C8700DB7813 /* YOHOHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414751DB68C8700DB7813 /* YOHOHomeController.m */; };
+		C82414901DB68C8700DB7813 /* YOHOARHomeBusinessDistrictModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414781DB68C8700DB7813 /* YOHOARHomeBusinessDistrictModel.m */; };
+		C82414911DB68C8700DB7813 /* YOHOARHomeBusinessStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C824147A1DB68C8700DB7813 /* YOHOARHomeBusinessStoreModel.m */; };
+		C82414921DB68C8700DB7813 /* YOHOARHomeCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C824147C1DB68C8700DB7813 /* YOHOARHomeCommentModel.m */; };
+		C82414931DB68C8700DB7813 /* comments.plist in Resources */ = {isa = PBXBuildFile; fileRef = C824147E1DB68C8700DB7813 /* comments.plist */; };
+		C82414941DB68C8700DB7813 /* YOHOARCustomTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414801DB68C8700DB7813 /* YOHOARCustomTransitionAnimator.m */; };
+		C82414951DB68C8700DB7813 /* YOHOARHomeLoadDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414821DB68C8700DB7813 /* YOHOARHomeLoadDataTool.m */; };
+		C82414961DB68C8700DB7813 /* YOHOARHomeCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414871DB68C8700DB7813 /* YOHOARHomeCommentCell.m */; };
+		C82414971DB68C8700DB7813 /* YOHOARHomeCommentPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414891DB68C8700DB7813 /* YOHOARHomeCommentPicView.m */; };
+		C82414981DB68C8700DB7813 /* YOHOARHomeCommentToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = C824148B1DB68C8700DB7813 /* YOHOARHomeCommentToolView.m */; };
+		C82414991DB68C8700DB7813 /* YOHOARHomeCommentToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C824148C1DB68C8700DB7813 /* YOHOARHomeCommentToolView.xib */; };
+		C82414C31DB68DBC00DB7813 /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414AA1DB68DBB00DB7813 /* NSArray+Addition.m */; };
+		C82414C41DB68DBC00DB7813 /* NSAttributedString+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414AC1DB68DBB00DB7813 /* NSAttributedString+Additon.m */; };
+		C82414C51DB68DBC00DB7813 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414AE1DB68DBB00DB7813 /* NSObject+Addition.m */; };
+		C82414C61DB68DBC00DB7813 /* NSObject+Formula.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414B01DB68DBB00DB7813 /* NSObject+Formula.m */; };
+		C82414C71DB68DBC00DB7813 /* NSString+YOHODealWithUrlString.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414B21DB68DBB00DB7813 /* NSString+YOHODealWithUrlString.m */; };
+		C82414C81DB68DBC00DB7813 /* UIButton+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414B41DB68DBC00DB7813 /* UIButton+Addition.m */; };
+		C82414C91DB68DBC00DB7813 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414B61DB68DBC00DB7813 /* UIColor+Addition.m */; };
+		C82414CA1DB68DBC00DB7813 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414B81DB68DBC00DB7813 /* UIImage+Additions.m */; };
+		C82414CB1DB68DBC00DB7813 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414BA1DB68DBC00DB7813 /* UIImage+Blur.m */; };
+		C82414CC1DB68DBC00DB7813 /* UIImage+ScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414BC1DB68DBC00DB7813 /* UIImage+ScaleImage.m */; };
+		C82414CD1DB68DBC00DB7813 /* UIImageView+YOHOUseCacheImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414BE1DB68DBC00DB7813 /* UIImageView+YOHOUseCacheImage.m */; };
+		C82414CE1DB68DBC00DB7813 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414C01DB68DBC00DB7813 /* UILabel+Addition.m */; };
+		C82414CF1DB68DBC00DB7813 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414C21DB68DBC00DB7813 /* UIView+Addition.m */; };
 		C8C8AB391DB3BDDC00DE6C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8AB381DB3BDDC00DE6C32 /* main.m */; };
 		C8C8AB3C1DB3BDDC00DE6C32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8AB3B1DB3BDDC00DE6C32 /* AppDelegate.m */; };
 		C8C8AB3F1DB3BDDC00DE6C32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8AB3E1DB3BDDC00DE6C32 /* ViewController.m */; };
@@ -83,7 +99,6 @@
 		C8C8ABC21DB4687100DE6C32 /* loading8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C8AB8F1DB4687100DE6C32 /* loading8@3x.png */; };
 		C8C8ABC31DB4687100DE6C32 /* loading9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C8AB901DB4687100DE6C32 /* loading9@2x.png */; };
 		C8C8ABC41DB4687100DE6C32 /* loading9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C8AB911DB4687100DE6C32 /* loading9@3x.png */; };
-		C8C8ABC51DB4687100DE6C32 /* NSObject+Formula.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8AB931DB4687100DE6C32 /* NSObject+Formula.m */; };
 		C8C8ABC61DB4687100DE6C32 /* UIImage+loadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8AB951DB4687100DE6C32 /* UIImage+loadImage.m */; };
 		C8C8ABC91DB4689D00DE6C32 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABC81DB4689D00DE6C32 /* RefreshViewController.m */; };
 		C8C8ABD21DB475E800DE6C32 /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8ABCC1DB475E800DE6C32 /* CoverFlowLayout.m */; };
@@ -110,29 +125,59 @@
 		C81BE0151DB5214F007BE6AB /* YOHOMarkView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOHOMarkView.xib; sourceTree = "<group>"; };
 		C81BE01A1DB5220A007BE6AB /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
 		C81BE01B1DB5220A007BE6AB /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
-		C81BE01E1DB52578007BE6AB /* Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
-		C81BE01F1DB52578007BE6AB /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
-		C81BE0201DB52578007BE6AB /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
-		C81BE0211DB52578007BE6AB /* NSAttributedString+Additon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Additon.h"; sourceTree = "<group>"; };
-		C81BE0221DB52578007BE6AB /* NSAttributedString+Additon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Additon.m"; sourceTree = "<group>"; };
-		C81BE0231DB52578007BE6AB /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
-		C81BE0241DB52578007BE6AB /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
-		C81BE0251DB52578007BE6AB /* NSObject+Formula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Formula.h"; sourceTree = "<group>"; };
-		C81BE0261DB52578007BE6AB /* NSObject+Formula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Formula.m"; sourceTree = "<group>"; };
-		C81BE0271DB52578007BE6AB /* NSString+path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+path.h"; sourceTree = "<group>"; };
-		C81BE0281DB52578007BE6AB /* NSString+path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+path.m"; sourceTree = "<group>"; };
-		C81BE02B1DB52578007BE6AB /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
-		C81BE02C1DB52578007BE6AB /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
-		C81BE02D1DB52578007BE6AB /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
-		C81BE02E1DB52578007BE6AB /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
-		C81BE02F1DB52578007BE6AB /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
-		C81BE0301DB52578007BE6AB /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
-		C81BE0311DB52578007BE6AB /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
-		C81BE0321DB52578007BE6AB /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
-		C81BE0331DB52578007BE6AB /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
-		C81BE0341DB52578007BE6AB /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
-		C81BE0351DB52578007BE6AB /* UIView+HMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMCategory.h"; sourceTree = "<group>"; };
-		C81BE0361DB52578007BE6AB /* UIView+HMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMCategory.m"; sourceTree = "<group>"; };
+		C824146A1DB68C4800DB7813 /* CustomModal-PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomModal-PCH.pch"; sourceTree = "<group>"; };
+		C824146B1DB68C7500DB7813 /* YOHOConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOConst.h; sourceTree = "<group>"; };
+		C824146C1DB68C7500DB7813 /* YOHOConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOConst.m; sourceTree = "<group>"; };
+		C82414711DB68C8700DB7813 /* YOHOCommentBigPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOCommentBigPicViewController.h; sourceTree = "<group>"; };
+		C82414721DB68C8700DB7813 /* YOHOCommentBigPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOCommentBigPicViewController.m; sourceTree = "<group>"; };
+		C82414731DB68C8700DB7813 /* YOHOCommentBigPicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOHOCommentBigPicViewController.xib; sourceTree = "<group>"; };
+		C82414741DB68C8700DB7813 /* YOHOHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOHomeController.h; sourceTree = "<group>"; };
+		C82414751DB68C8700DB7813 /* YOHOHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOHomeController.m; sourceTree = "<group>"; };
+		C82414771DB68C8700DB7813 /* YOHOARHomeBusinessDistrictModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeBusinessDistrictModel.h; sourceTree = "<group>"; };
+		C82414781DB68C8700DB7813 /* YOHOARHomeBusinessDistrictModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeBusinessDistrictModel.m; sourceTree = "<group>"; };
+		C82414791DB68C8700DB7813 /* YOHOARHomeBusinessStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeBusinessStoreModel.h; sourceTree = "<group>"; };
+		C824147A1DB68C8700DB7813 /* YOHOARHomeBusinessStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeBusinessStoreModel.m; sourceTree = "<group>"; };
+		C824147B1DB68C8700DB7813 /* YOHOARHomeCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentModel.h; sourceTree = "<group>"; };
+		C824147C1DB68C8700DB7813 /* YOHOARHomeCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentModel.m; sourceTree = "<group>"; };
+		C824147E1DB68C8700DB7813 /* comments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = comments.plist; sourceTree = "<group>"; };
+		C824147F1DB68C8700DB7813 /* YOHOARCustomTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARCustomTransitionAnimator.h; sourceTree = "<group>"; };
+		C82414801DB68C8700DB7813 /* YOHOARCustomTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARCustomTransitionAnimator.m; sourceTree = "<group>"; };
+		C82414811DB68C8700DB7813 /* YOHOARHomeLoadDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeLoadDataTool.h; sourceTree = "<group>"; };
+		C82414821DB68C8700DB7813 /* YOHOARHomeLoadDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeLoadDataTool.m; sourceTree = "<group>"; };
+		C82414861DB68C8700DB7813 /* YOHOARHomeCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentCell.h; sourceTree = "<group>"; };
+		C82414871DB68C8700DB7813 /* YOHOARHomeCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentCell.m; sourceTree = "<group>"; };
+		C82414881DB68C8700DB7813 /* YOHOARHomeCommentPicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentPicView.h; sourceTree = "<group>"; };
+		C82414891DB68C8700DB7813 /* YOHOARHomeCommentPicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentPicView.m; sourceTree = "<group>"; };
+		C824148A1DB68C8700DB7813 /* YOHOARHomeCommentToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentToolView.h; sourceTree = "<group>"; };
+		C824148B1DB68C8700DB7813 /* YOHOARHomeCommentToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentToolView.m; sourceTree = "<group>"; };
+		C824148C1DB68C8700DB7813 /* YOHOARHomeCommentToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOHOARHomeCommentToolView.xib; sourceTree = "<group>"; };
+		C82414A81DB68DBB00DB7813 /* Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
+		C82414A91DB68DBB00DB7813 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
+		C82414AA1DB68DBB00DB7813 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		C82414AB1DB68DBB00DB7813 /* NSAttributedString+Additon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Additon.h"; sourceTree = "<group>"; };
+		C82414AC1DB68DBB00DB7813 /* NSAttributedString+Additon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Additon.m"; sourceTree = "<group>"; };
+		C82414AD1DB68DBB00DB7813 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		C82414AE1DB68DBB00DB7813 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		C82414AF1DB68DBB00DB7813 /* NSObject+Formula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Formula.h"; sourceTree = "<group>"; };
+		C82414B01DB68DBB00DB7813 /* NSObject+Formula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Formula.m"; sourceTree = "<group>"; };
+		C82414B11DB68DBB00DB7813 /* NSString+YOHODealWithUrlString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YOHODealWithUrlString.h"; sourceTree = "<group>"; };
+		C82414B21DB68DBB00DB7813 /* NSString+YOHODealWithUrlString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YOHODealWithUrlString.m"; sourceTree = "<group>"; };
+		C82414B31DB68DBC00DB7813 /* UIButton+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addition.h"; sourceTree = "<group>"; };
+		C82414B41DB68DBC00DB7813 /* UIButton+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
+		C82414B51DB68DBC00DB7813 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		C82414B61DB68DBC00DB7813 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		C82414B71DB68DBC00DB7813 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		C82414B81DB68DBC00DB7813 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		C82414B91DB68DBC00DB7813 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		C82414BA1DB68DBC00DB7813 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		C82414BB1DB68DBC00DB7813 /* UIImage+ScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleImage.h"; sourceTree = "<group>"; };
+		C82414BC1DB68DBC00DB7813 /* UIImage+ScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleImage.m"; sourceTree = "<group>"; };
+		C82414BD1DB68DBC00DB7813 /* UIImageView+YOHOUseCacheImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YOHOUseCacheImage.h"; sourceTree = "<group>"; };
+		C82414BE1DB68DBC00DB7813 /* UIImageView+YOHOUseCacheImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YOHOUseCacheImage.m"; sourceTree = "<group>"; };
+		C82414BF1DB68DBC00DB7813 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
+		C82414C01DB68DBC00DB7813 /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
+		C82414C11DB68DBC00DB7813 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		C82414C21DB68DBC00DB7813 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 		C8C8AB341DB3BDDC00DE6C32 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C8AB381DB3BDDC00DE6C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8C8AB3A1DB3BDDC00DE6C32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -201,8 +246,6 @@
 		C8C8AB8F1DB4687100DE6C32 /* loading8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading8@3x.png"; sourceTree = "<group>"; };
 		C8C8AB901DB4687100DE6C32 /* loading9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading9@2x.png"; sourceTree = "<group>"; };
 		C8C8AB911DB4687100DE6C32 /* loading9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading9@3x.png"; sourceTree = "<group>"; };
-		C8C8AB921DB4687100DE6C32 /* NSObject+Formula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Formula.h"; sourceTree = "<group>"; };
-		C8C8AB931DB4687100DE6C32 /* NSObject+Formula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Formula.m"; sourceTree = "<group>"; };
 		C8C8AB941DB4687100DE6C32 /* UIImage+loadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+loadImage.h"; sourceTree = "<group>"; };
 		C8C8AB951DB4687100DE6C32 /* UIImage+loadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+loadImage.m"; sourceTree = "<group>"; };
 		C8C8ABC71DB4689D00DE6C32 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
@@ -281,32 +324,122 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C81BE01D1DB52578007BE6AB /* Additions */ = {
+		C824146E1DB68C8700DB7813 /* 自定义模态 */ = {
 			isa = PBXGroup;
 			children = (
-				C81BE01E1DB52578007BE6AB /* Addition.h */,
-				C81BE01F1DB52578007BE6AB /* NSArray+Addition.h */,
-				C81BE0201DB52578007BE6AB /* NSArray+Addition.m */,
-				C81BE0211DB52578007BE6AB /* NSAttributedString+Additon.h */,
-				C81BE0221DB52578007BE6AB /* NSAttributedString+Additon.m */,
-				C81BE0231DB52578007BE6AB /* NSObject+Addition.h */,
-				C81BE0241DB52578007BE6AB /* NSObject+Addition.m */,
-				C81BE0251DB52578007BE6AB /* NSObject+Formula.h */,
-				C81BE0261DB52578007BE6AB /* NSObject+Formula.m */,
-				C81BE0271DB52578007BE6AB /* NSString+path.h */,
-				C81BE0281DB52578007BE6AB /* NSString+path.m */,
-				C81BE02B1DB52578007BE6AB /* UIColor+Addition.h */,
-				C81BE02C1DB52578007BE6AB /* UIColor+Addition.m */,
-				C81BE02D1DB52578007BE6AB /* UIImage+Additions.h */,
-				C81BE02E1DB52578007BE6AB /* UIImage+Additions.m */,
-				C81BE02F1DB52578007BE6AB /* UIImage+Blur.h */,
-				C81BE0301DB52578007BE6AB /* UIImage+Blur.m */,
-				C81BE0311DB52578007BE6AB /* UILabel+Addition.h */,
-				C81BE0321DB52578007BE6AB /* UILabel+Addition.m */,
-				C81BE0331DB52578007BE6AB /* UIView+Addition.h */,
-				C81BE0341DB52578007BE6AB /* UIView+Addition.m */,
-				C81BE0351DB52578007BE6AB /* UIView+HMCategory.h */,
-				C81BE0361DB52578007BE6AB /* UIView+HMCategory.m */,
+				C824146F1DB68C8700DB7813 /* CustomModal */,
+			);
+			path = "自定义模态";
+			sourceTree = "<group>";
+		};
+		C824146F1DB68C8700DB7813 /* CustomModal */ = {
+			isa = PBXGroup;
+			children = (
+				C82414701DB68C8700DB7813 /* Controller */,
+				C82414761DB68C8700DB7813 /* Model */,
+				C824147D1DB68C8700DB7813 /* Other */,
+				C82414831DB68C8700DB7813 /* View */,
+			);
+			path = CustomModal;
+			sourceTree = "<group>";
+		};
+		C82414701DB68C8700DB7813 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C82414711DB68C8700DB7813 /* YOHOCommentBigPicViewController.h */,
+				C82414721DB68C8700DB7813 /* YOHOCommentBigPicViewController.m */,
+				C82414731DB68C8700DB7813 /* YOHOCommentBigPicViewController.xib */,
+				C82414741DB68C8700DB7813 /* YOHOHomeController.h */,
+				C82414751DB68C8700DB7813 /* YOHOHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C82414761DB68C8700DB7813 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C82414771DB68C8700DB7813 /* YOHOARHomeBusinessDistrictModel.h */,
+				C82414781DB68C8700DB7813 /* YOHOARHomeBusinessDistrictModel.m */,
+				C82414791DB68C8700DB7813 /* YOHOARHomeBusinessStoreModel.h */,
+				C824147A1DB68C8700DB7813 /* YOHOARHomeBusinessStoreModel.m */,
+				C824147B1DB68C8700DB7813 /* YOHOARHomeCommentModel.h */,
+				C824147C1DB68C8700DB7813 /* YOHOARHomeCommentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C824147D1DB68C8700DB7813 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C824147E1DB68C8700DB7813 /* comments.plist */,
+				C824147F1DB68C8700DB7813 /* YOHOARCustomTransitionAnimator.h */,
+				C82414801DB68C8700DB7813 /* YOHOARCustomTransitionAnimator.m */,
+				C82414811DB68C8700DB7813 /* YOHOARHomeLoadDataTool.h */,
+				C82414821DB68C8700DB7813 /* YOHOARHomeLoadDataTool.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C82414831DB68C8700DB7813 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C82414841DB68C8700DB7813 /* Business */,
+				C82414851DB68C8700DB7813 /* Comment */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C82414841DB68C8700DB7813 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		C82414851DB68C8700DB7813 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				C82414861DB68C8700DB7813 /* YOHOARHomeCommentCell.h */,
+				C82414871DB68C8700DB7813 /* YOHOARHomeCommentCell.m */,
+				C82414881DB68C8700DB7813 /* YOHOARHomeCommentPicView.h */,
+				C82414891DB68C8700DB7813 /* YOHOARHomeCommentPicView.m */,
+				C824148A1DB68C8700DB7813 /* YOHOARHomeCommentToolView.h */,
+				C824148B1DB68C8700DB7813 /* YOHOARHomeCommentToolView.m */,
+				C824148C1DB68C8700DB7813 /* YOHOARHomeCommentToolView.xib */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		C82414A71DB68DBB00DB7813 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C82414A81DB68DBB00DB7813 /* Addition.h */,
+				C82414A91DB68DBB00DB7813 /* NSArray+Addition.h */,
+				C82414AA1DB68DBB00DB7813 /* NSArray+Addition.m */,
+				C82414AB1DB68DBB00DB7813 /* NSAttributedString+Additon.h */,
+				C82414AC1DB68DBB00DB7813 /* NSAttributedString+Additon.m */,
+				C82414AD1DB68DBB00DB7813 /* NSObject+Addition.h */,
+				C82414AE1DB68DBB00DB7813 /* NSObject+Addition.m */,
+				C82414AF1DB68DBB00DB7813 /* NSObject+Formula.h */,
+				C82414B01DB68DBB00DB7813 /* NSObject+Formula.m */,
+				C82414B11DB68DBB00DB7813 /* NSString+YOHODealWithUrlString.h */,
+				C82414B21DB68DBB00DB7813 /* NSString+YOHODealWithUrlString.m */,
+				C82414B31DB68DBC00DB7813 /* UIButton+Addition.h */,
+				C82414B41DB68DBC00DB7813 /* UIButton+Addition.m */,
+				C82414B51DB68DBC00DB7813 /* UIColor+Addition.h */,
+				C82414B61DB68DBC00DB7813 /* UIColor+Addition.m */,
+				C82414B71DB68DBC00DB7813 /* UIImage+Additions.h */,
+				C82414B81DB68DBC00DB7813 /* UIImage+Additions.m */,
+				C82414B91DB68DBC00DB7813 /* UIImage+Blur.h */,
+				C82414BA1DB68DBC00DB7813 /* UIImage+Blur.m */,
+				C82414BB1DB68DBC00DB7813 /* UIImage+ScaleImage.h */,
+				C82414BC1DB68DBC00DB7813 /* UIImage+ScaleImage.m */,
+				C82414BD1DB68DBC00DB7813 /* UIImageView+YOHOUseCacheImage.h */,
+				C82414BE1DB68DBC00DB7813 /* UIImageView+YOHOUseCacheImage.m */,
+				C82414BF1DB68DBC00DB7813 /* UILabel+Addition.h */,
+				C82414C01DB68DBC00DB7813 /* UILabel+Addition.m */,
+				C82414C11DB68DBC00DB7813 /* UIView+Addition.h */,
+				C82414C21DB68DBC00DB7813 /* UIView+Addition.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -332,6 +465,8 @@
 		C8C8AB361DB3BDDC00DE6C32 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C82414A71DB68DBB00DB7813 /* Additions */,
+				C824146E1DB68C8700DB7813 /* 自定义模态 */,
 				C81BE00E1DB5214F007BE6AB /* 个人资料展示 */,
 				C8C8ABD91DB4787500DE6C32 /* 无限轮播器 */,
 				C8C8ABCA1DB475E800DE6C32 /* Coverflow评论界面 */,
@@ -349,6 +484,7 @@
 				C8C8AB481DB3BDDC00DE6C32 /* Info.plist */,
 				C8C8AB371DB3BDDC00DE6C32 /* Supporting Files */,
 				C8C8AB4E1DB3BE0200DE6C32 /* HomeData.plist */,
+				C824146A1DB68C4800DB7813 /* CustomModal-PCH.pch */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -356,7 +492,8 @@
 		C8C8AB371DB3BDDC00DE6C32 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C81BE01D1DB52578007BE6AB /* Additions */,
+				C824146B1DB68C7500DB7813 /* YOHOConst.h */,
+				C824146C1DB68C7500DB7813 /* YOHOConst.m */,
 				C8C8AB381DB3BDDC00DE6C32 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -392,8 +529,6 @@
 				C8C8AB611DB4687000DE6C32 /* ARRefreshControl.h */,
 				C8C8AB621DB4687000DE6C32 /* ARRefreshControl.m */,
 				C8C8AB631DB4687000DE6C32 /* loadimage */,
-				C8C8AB921DB4687100DE6C32 /* NSObject+Formula.h */,
-				C8C8AB931DB4687100DE6C32 /* NSObject+Formula.m */,
 				C8C8AB941DB4687100DE6C32 /* UIImage+loadImage.h */,
 				C8C8AB951DB4687100DE6C32 /* UIImage+loadImage.m */,
 			);
@@ -580,7 +715,9 @@
 				C8C8ABB51DB4687100DE6C32 /* loading2@2x.png in Resources */,
 				C8C8ABBB1DB4687100DE6C32 /* loading5@2x.png in Resources */,
 				C8C8ABA51DB4687100DE6C32 /* loading16@2x.png in Resources */,
+				C82414991DB68C8700DB7813 /* YOHOARHomeCommentToolView.xib in Resources */,
 				C8C8ABE51DB4787500DE6C32 /* bannerPic02.jpg in Resources */,
+				C82414931DB68C8700DB7813 /* comments.plist in Resources */,
 				C8C8AB9F1DB4687100DE6C32 /* loading13@2x.png in Resources */,
 				C8C8AB551DB3C03700DE6C32 /* SpeechRecognitionController.xib in Resources */,
 				C8C8AB9D1DB4687100DE6C32 /* loading12@2x.png in Resources */,
@@ -618,6 +755,7 @@
 				C8C8AB421DB3BDDC00DE6C32 /* Main.storyboard in Resources */,
 				C8C8ABA91DB4687100DE6C32 /* loading18@2x.png in Resources */,
 				C8C8ABC01DB4687100DE6C32 /* loading7@3x.png in Resources */,
+				C824148E1DB68C8700DB7813 /* YOHOCommentBigPicViewController.xib in Resources */,
 				C8C8ABBD1DB4687100DE6C32 /* loading6@2x.png in Resources */,
 				C8C8ABA21DB4687100DE6C32 /* loading14@3x.png in Resources */,
 				C8C8AB4F1DB3BE0200DE6C32 /* HomeData.plist in Resources */,
@@ -680,37 +818,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82414C61DB68DBC00DB7813 /* NSObject+Formula.m in Sources */,
+				C82414CD1DB68DBC00DB7813 /* UIImageView+YOHOUseCacheImage.m in Sources */,
 				C8C8ABD41DB475E800DE6C32 /* CoverFlowViewCell.m in Sources */,
 				C8C8ABD31DB475E800DE6C32 /* CoverFlowView.m in Sources */,
+				C82414CF1DB68DBC00DB7813 /* UIView+Addition.m in Sources */,
+				C82414CB1DB68DBC00DB7813 /* UIImage+Blur.m in Sources */,
+				C824148D1DB68C8700DB7813 /* YOHOCommentBigPicViewController.m in Sources */,
 				C8C8AB961DB4687100DE6C32 /* ARRefreshControl.m in Sources */,
-				C81BE0381DB52578007BE6AB /* NSAttributedString+Additon.m in Sources */,
 				C8C8ABC61DB4687100DE6C32 /* UIImage+loadImage.m in Sources */,
-				C81BE0421DB52578007BE6AB /* UIView+HMCategory.m in Sources */,
-				C81BE03F1DB52578007BE6AB /* UIImage+Blur.m in Sources */,
-				C81BE03B1DB52578007BE6AB /* NSString+path.m in Sources */,
+				C82414941DB68C8700DB7813 /* YOHOARCustomTransitionAnimator.m in Sources */,
 				C8C8ABEB1DB4789500DE6C32 /* BannerViewController.m in Sources */,
-				C81BE0401DB52578007BE6AB /* UILabel+Addition.m in Sources */,
 				C8C8AB3F1DB3BDDC00DE6C32 /* ViewController.m in Sources */,
 				C81BE0161DB5214F007BE6AB /* YOHOARUserHeaderView.m in Sources */,
+				C824146D1DB68C7500DB7813 /* YOHOConst.m in Sources */,
+				C82414C81DB68DBC00DB7813 /* UIButton+Addition.m in Sources */,
 				C8C8AB541DB3C03700DE6C32 /* SpeechRecognitionController.m in Sources */,
+				C82414971DB68C8700DB7813 /* YOHOARHomeCommentPicView.m in Sources */,
+				C82414961DB68C8700DB7813 /* YOHOARHomeCommentCell.m in Sources */,
 				C8C8AB3C1DB3BDDC00DE6C32 /* AppDelegate.m in Sources */,
 				C8C8ABD21DB475E800DE6C32 /* CoverFlowLayout.m in Sources */,
-				C81BE0411DB52578007BE6AB /* UIView+Addition.m in Sources */,
-				C81BE0391DB52578007BE6AB /* NSObject+Addition.m in Sources */,
-				C81BE03E1DB52578007BE6AB /* UIImage+Additions.m in Sources */,
-				C8C8ABC51DB4687100DE6C32 /* NSObject+Formula.m in Sources */,
+				C82414951DB68C8700DB7813 /* YOHOARHomeLoadDataTool.m in Sources */,
 				C8C8AB581DB3C0DB00DE6C32 /* UIView+Inspectable.m in Sources */,
+				C82414C31DB68DBC00DB7813 /* NSArray+Addition.m in Sources */,
+				C82414911DB68C8700DB7813 /* YOHOARHomeBusinessStoreModel.m in Sources */,
 				C8C8AB5B1DB3D6CB00DE6C32 /* VoiceRecordView.m in Sources */,
+				C824148F1DB68C8700DB7813 /* YOHOHomeController.m in Sources */,
+				C82414C41DB68DBC00DB7813 /* NSAttributedString+Additon.m in Sources */,
 				C8C8AB391DB3BDDC00DE6C32 /* main.m in Sources */,
-				C81BE03D1DB52578007BE6AB /* UIColor+Addition.m in Sources */,
+				C82414CA1DB68DBC00DB7813 /* UIImage+Additions.m in Sources */,
 				C8C8AB5E1DB45EEE00DE6C32 /* AudioTool.m in Sources */,
+				C82414C71DB68DBC00DB7813 /* NSString+YOHODealWithUrlString.m in Sources */,
 				C8C8ABE31DB4787500DE6C32 /* ARBannerView.m in Sources */,
 				C8C8ABC91DB4689D00DE6C32 /* RefreshViewController.m in Sources */,
 				C8C8ABD81DB4766100DE6C32 /* CommentCoverflowViewController.m in Sources */,
+				C82414921DB68C8700DB7813 /* YOHOARHomeCommentModel.m in Sources */,
+				C82414C91DB68DBC00DB7813 /* UIColor+Addition.m in Sources */,
 				C81BE01C1DB5220A007BE6AB /* PersonalInfoViewController.m in Sources */,
 				C81BE0181DB5214F007BE6AB /* YOHOMarkView.m in Sources */,
-				C81BE03A1DB52578007BE6AB /* NSObject+Formula.m in Sources */,
-				C81BE0371DB52578007BE6AB /* NSArray+Addition.m in Sources */,
+				C82414901DB68C8700DB7813 /* YOHOARHomeBusinessDistrictModel.m in Sources */,
+				C82414CE1DB68DBC00DB7813 /* UILabel+Addition.m in Sources */,
+				C82414C51DB68DBC00DB7813 /* NSObject+Addition.m in Sources */,
+				C82414CC1DB68DBC00DB7813 /* UIImage+ScaleImage.m in Sources */,
+				C82414981DB68C8700DB7813 /* YOHOARHomeCommentToolView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -830,6 +980,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55EMPZWFA4;
+				GCC_PREFIX_HEADER = "Demo/CustomModal-PCH.pch";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ari.Demo;
@@ -843,6 +994,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55EMPZWFA4;
+				GCC_PREFIX_HEADER = "Demo/CustomModal-PCH.pch";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ari.Demo;

@@ -40,27 +40,27 @@
  *  @return origin
  */
 - (CGPoint)viewOrigin{
-    return self.bounds.origin;
+    return self.frame.origin;
 }
 /**
  *  @author Ari
  *
  *  self.bounds.origin.x
  *
- *  @return self.bounds.origin.x
+ *  @return self.frame.origin.x
  */
 - (CGFloat)viewX{
-    return self.bounds.origin.x;
+    return self.frame.origin.x;
 }
 /**
  *  @author Ari
  *
  *  self.bounds.origin.y
  *
- *  @return self.bounds.origin.y
+ *  @return self.frame.origin.y
  */
 - (CGFloat)viewY{
-    return self.bounds.origin.y;
+    return self.frame.origin.y;
 }
 /**
  *  @author Ari
@@ -83,4 +83,5 @@
 - (CGFloat)viewHeight{
     return self.bounds.size.height;
 }
+
 @end

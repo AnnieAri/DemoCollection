@@ -7,17 +7,25 @@ PODS:
   - ReactiveCocoa/Core (2.1.8):
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/no-arc (2.1.8)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - FDFullscreenPopGesture (= 1.1)
   - Masonry
   - ReactiveCocoa (~> 2.1.8)
+  - SDWebImage
+  - YYModel
 
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 091fb2fbc04198c11fb4aade18a86ebeb7b3cb67
+PODFILE CHECKSUM: ec4fa1f7c52e27811fa1e0bd21dbb121733cd130
 
 COCOAPODS: 1.0.1
